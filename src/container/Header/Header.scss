@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+.right_portion {
+  //background: url(https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000);
+  background: url(https://media.licdn.com/dms/image/C4D03AQFogcoCyeshew/profile-displayphoto-shrink_800_800/0/1640779921214?e=1700697600&v=beta&t=3kELN-S5MuHORneSEEW_CRVarVAWBkI1Y5UufqyCxEo);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgba(225, 225, 225, .4);
+  order: 1;
+  justify-self: center;
+  width: 80vw;
+  height: 80vw;
+  transform: translateY(-38px) !important;
+  animation: profile__animate 8s ease-in-out infinite 0s;
+
+  @media screen and (min-width: 400px) {
+    width: 300px;
+    height: 300px;
+  }
+  @media screen and (min-width: 2000px) {
+    width: 450px;
+    height: 450px;
+  }
+  @media (max-width: 800px) {
+    transform: translateY(0px) !important;
+  }
+}
+#home {
+  position: relative;
+  background: url("../../assets/bgIMG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+
+  .app__wrapper {
+    padding: 0;
+    .copyright {
+      display: none;
+    }
+  }
+}
+.line_break{
+  display: none;
+  @media (max-width: 1100px) {
+      display: inline;
+  }
+}
+
+.app__header {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+
+  padding: 6rem 2rem 0rem;
+
+  @media screen and (min-width: 2000px) {
+    padding-top: 8rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 450px) {
+    padding: 6rem 1rem 2rem;
+  }
+}
+
+.left_portion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2;
+  width: 44vw;
+  transform: translateY(-40px) !important;
+
+  p:nth-child(1) {
+    color: #333;
+    font-size: 2.75rem;
+    font-family: "Nunito";
+    font-weight: 600;
+    @media (max-width: 800px) {
+      font-size: 2rem;
+    }
+  }
+  p:nth-child(2) {
+    font-size: 2.5rem;
+    font-family: "Be Vietnam Pro";
+    margin-top: 1.5rem;
+    .variable-text{
+      color: var(--secondary-color) !important;
+      font-size: 3rem !important;
+      font-weight:500 !important;
+      @media (max-width: 800px) {
+        font-size: 1.75rem !important;
+      }
+    }
+    @media (max-width: 800px) {
+      font-size: 1.75rem;
+      margin-top: 1rem;
+    }
+  }
+  p:nth-child(3) {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    color: #6A737D;
+    width: 80%;
+    margin-bottom: 0.5rem;
+    @media (max-width: 800px) {
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 800px) {
+    width: 100%;
+    transform: translateY(0px) !important;
+  }
+}
+
+
+
+
+
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+
+//Button
+.home__scroll {
+  margin-left: 9.25rem;
+  position: absolute;
+  
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 2rem;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+
+}
+.wheel {
+  animation: scroll 2s ease infinite;
+}
+@keyframes scroll {
+  0% {
+      transform: translateY(0);
+  }
+  30% {
+      transform: translateY(3.75rem);
+  }
+}
+.home__scroll-name {
+  color: hsl(0, 0%, 20%);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+  margin-left: 2px;
+}
+.home__scroll-arrow {
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 20%);
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+
+.button {
+  margin-top: 1.5rem;
+  display: inline-block;
+  background-color: hsl(0, 0%, 20%);;
+  color: white;
+  padding: 1rem 1.8rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  @media screen and (max-width: 500px) {
+    padding: 0.7rem 1rem;
+    margin: 1rem 0;
+  }
+}
+.btn_content{
+  margin-top: 0;
+  padding-bottom: 3rem;
+  padding-top: 0;
+}
+.button:hover {
+  background-color: var(--secondary-color);
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.20),0 5px 5px 0 rgba(0,0,0,0.20);
+}
+
+.button__icon {
+  margin-left: 0.5rem;
+  transform: translateY(3px);
+}
