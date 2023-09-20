@@ -13,6 +13,8 @@ const Header = () => {
     headlinesData.push(headlines[i]);
     headlinesData.push(2000);
   }
+  const IMG_URL =
+    "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000";
   return (
     <div className="app__header app__flex">
       <motion.div
@@ -59,6 +61,7 @@ const Header = () => {
         whileInView={{ y: [100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
         className="right_portion"
+        style={{ backgroundImage: `url(${data.HOME.img_url})` }}
       ></motion.div>
       <div className="home__scroll">
         <a href="#about" className="home__scroll-button button--flex">
