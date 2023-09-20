@@ -233,7 +233,7 @@ const SKILLS = {
   ],
   experiences: [
     {
-      year: "2025",
+      year: "2023",
       works: [
         {
           id: "B.Tech",
@@ -241,11 +241,6 @@ const SKILLS = {
           company: "Institute of Engineering and Management [2021 - 2025]",
           desc: "CGPA - 9.3 (till 2nd Year)",
         },
-      ],
-    },
-    {
-      year: "2023",
-      works: [
         {
           id: "Java-NPTEL",
           name: "Programming in Java",
