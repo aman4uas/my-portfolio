@@ -89,8 +89,7 @@ const PROJECTS = [
   },
   {
     codeLink: "https://github.com/aman4uas/Todo-List",
-    projectLink:
-      "https://todolist-g9wn.onrender.com/todolist-g9wn.onrender.com/",
+    projectLink: "https://todolist-g9wn.onrender.com",
     imgUrl: "assets/project/todo.jpg",
     name: "Todo List",
     title: "Todo List",
