@@ -111,7 +111,7 @@ const SKILLS = {
   skills: [
     {
       icon: "assets/skills/react.png", //Image src
-      name: "React JS",
+      name: "React",
       bgColor: "#f3f6f4",
     },
     {
