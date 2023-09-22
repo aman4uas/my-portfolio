@@ -105,6 +105,22 @@ const PROJECTS = [
     title: "Parallax Thrills: Journeying through the Exotic",
     tags: ["UI/UX", "All"],
   },
+  {
+    codeLink: "https://github.com/aman4uas/tindog_Project/",
+    projectLink: "https://aman4uas.github.io/tindog_Project/",
+    imgUrl: "assets/project/tindog.png",
+    name: "Tindog",
+    title: "Tindog",
+    tags: ["UI/UX", "All"],
+  },
+  {
+    codeLink: "https://github.com/aman4uas/basicBlogWebsite",
+    projectLink: "https://blogsite-czn0.onrender.com/",
+    imgUrl: "assets/project/blog.jpg",
+    name: "Blog Website",
+    title: "Blog Website",
+    tags: ["Web App", "All"],
+  },
 ];
 
 //Skills, Achievement, Experiences
