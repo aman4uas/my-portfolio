@@ -9,9 +9,10 @@ const HOME = {
   ],
   description:
     "I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.",
-  //img_url:  "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000",
+  //img_url:"https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000",
+  //img_url: "https://media.licdn.com/dms/image/C4D03AQFogcoCyeshew/profile-displayphoto-shrink_800_800/0/1640779921214?e=1700697600&v=beta&t=3kELN-S5MuHORneSEEW_CRVarVAWBkI1Y5UufqyCxEo"
   img_url:
-    "https://media.licdn.com/dms/image/C4D03AQFogcoCyeshew/profile-displayphoto-shrink_800_800/0/1640779921214?e=1700697600&v=beta&t=3kELN-S5MuHORneSEEW_CRVarVAWBkI1Y5UufqyCxEo",
+    "https://media.licdn.com/dms/image/D5603AQHs4Zgea5paOg/profile-displayphoto-shrink_400_400/0/1695367036523?e=1700697600&v=beta&t=_ybyUqLxiCFpKk5ArXY63MPrQXlxSJzumeoS4ZphKmk",
 };
 
 //About
