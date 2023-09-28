@@ -56,13 +56,12 @@ const PROJECTS = [
     tags: ["React JS", "All"],
   },
   {
-    codeLink: "https://github.com/aman4uas/yt-tool-chrome-extension",
-    projectLink:
-      "https://github.com/aman4uas/yt-tool-chrome-extension#screenshots",
-    imgUrl: "assets/project/chrome-ext.png",
-    name: "YT Tool - Chrome Extension",
-    title: "YT Tool - Chrome Extension",
-    tags: ["Others", "All"],
+    codeLink: "https://github.com/aman4uas/my-portfolio",
+    projectLink: "https://portfolio-aman-singh.netlify.app/",
+    imgUrl: "assets/project/portfolio.webp",
+    name: "My Portfolio",
+    title: "My Portfolio",
+    tags: ["React JS", "UI/UX", "All"],
   },
   {
     codeLink: "https://github.com/aman4uas/video-chat-app",
@@ -72,13 +71,23 @@ const PROJECTS = [
     title: "Video Chat App",
     tags: ["Web App", "React JS", "All"],
   },
+
   {
-    codeLink: "https://github.com/aman4uas/my-portfolio",
-    projectLink: "https://portfolio-aman-singh.netlify.app/",
-    imgUrl: "assets/project/portfolio.webp",
-    name: "My Portfolio",
-    title: "My Portfolio",
-    tags: ["React JS", "UI/UX", "All"],
+    codeLink: "https://github.com/aman4uas/yt-tool-chrome-extension",
+    projectLink:
+      "https://github.com/aman4uas/yt-tool-chrome-extension#screenshots",
+    imgUrl: "assets/project/chrome-ext.png",
+    name: "YT Tool - Chrome Extension",
+    title: "YT Tool - Chrome Extension",
+    tags: ["Others", "All"],
+  },
+  {
+    codeLink: "https://github.com/aman4uas/telegram-bot-GroupGuardian",
+    projectLink: "https://t.me/principal_chatbot",
+    imgUrl: "assets/project/bot.jpg",
+    name: "GroupGuardian - Telegram Bot",
+    title: "GroupGuardian - Telegram Bot",
+    tags: ["Others", "All"],
   },
   {
     codeLink: "https://github.com/aman4uas/Simon-Game",
@@ -89,21 +98,20 @@ const PROJECTS = [
     tags: ["Others", "All"],
   },
   {
+    codeLink: "https://github.com/aman4uas/yt-tool-telegram-bot",
+    projectLink: "https://t.me/yt_tool_bot",
+    imgUrl: "assets/project/yt-bot.jpg",
+    name: "YT Tool - Telegram Bot",
+    title: "YT Tool - Telegram Bot",
+    tags: ["Others", "All"],
+  },
+  {
     codeLink: "https://github.com/aman4uas/Todo-List",
     projectLink: "https://todolist-g9wn.onrender.com",
     imgUrl: "assets/project/todo.jpg",
     name: "Todo List",
     title: "Todo List",
     tags: ["Web App", "All"],
-  },
-
-  {
-    codeLink: "https://github.com/aman4uas/Adventure-Parallax-Effect",
-    projectLink: "https://aman4uas.github.io/Adventure-Parallax-Effect",
-    imgUrl: "assets/project/desert.jpg",
-    name: "Parallax Thrills: Journeying through the Exotic",
-    title: "Parallax Thrills: Journeying through the Exotic",
-    tags: ["UI/UX", "All"],
   },
   {
     codeLink: "https://github.com/aman4uas/tindog_Project/",
@@ -120,6 +128,14 @@ const PROJECTS = [
     name: "Blog Website",
     title: "Blog Website",
     tags: ["Web App", "All"],
+  },
+  {
+    codeLink: "https://github.com/aman4uas/Adventure-Parallax-Effect",
+    projectLink: "https://aman4uas.github.io/Adventure-Parallax-Effect",
+    imgUrl: "assets/project/desert.jpg",
+    name: "Parallax Thrills: Journeying through the Exotic",
+    title: "Parallax Thrills: Journeying through the Exotic",
+    tags: ["UI/UX", "All"],
   },
 ];
 

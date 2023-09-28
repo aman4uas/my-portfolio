@@ -13,8 +13,7 @@ const Header = () => {
     headlinesData.push(headlines[i]);
     headlinesData.push(2000);
   }
-  const IMG_URL =
-    "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000";
+  //const IMG_URL ="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000";
   return (
     <div className="app__header app__flex">
       <motion.div
