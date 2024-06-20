@@ -46,6 +46,14 @@ const ABOUT = [
 const PROJECTS_CATEGORY = ["All", "Web App", "React JS", "UI/UX", "Others"];
 const PROJECTS = [
   {
+    codeLink: "https://github.com/aman4uas/reactify-cloud",
+    projectLink: "https://reactify-cloud.vercel.app",
+    imgUrl: "assets/project/reactify-cloud.png",
+    name: "Reactify Cloud - Host your React Application",
+    title: "Reactify Cloud - Host your React Application",
+    tags: ["React JS", "Web App", "All"],
+  },
+  {
     codeLink: "https://github.com/aman4uas/yt-playlist-length-calculator",
     projectLink: "https://yt-playlist-length-calculator.netlify.app/",
     imgUrl: "assets/project/youtube.png",
